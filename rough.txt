@@ -1,0 +1,19 @@
+<div class="relative h-56 overflow-hidden rounded-lg sm:h-64 md:h-96">
+       <!-- Item 1 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
+          <img src="images/slider-1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 2 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="images/slider-2.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+      <!-- Item 3 -->
+      <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img src="images/slider-3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+      </div>
+
+  </div>
+
+  absolute block text-white text-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
+
+  <div class="relative tr md:absolute flex flex-col justify-center  md:block text-white text-center md:-translate-x-1/2 md:-translate-y-1/2 md:top-1/2 md:left-1/2 md:space-y-6 ">
