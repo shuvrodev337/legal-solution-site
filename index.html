@@ -27,6 +27,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css"
       rel="stylesheet"
     />
+    <!-- tailwind elements cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
     <!-- Font Awesome kit -->
     <script
       src="https://kit.fontawesome.com/202445306c.js"
@@ -130,7 +132,7 @@
           </p>
         </div>
       </section>
-      <!-- Legal Practice Carousel sectoin  -->
+      <!-- Legal Practice sectoin  -->
       <section class="mx-14">
         <div id="indicators-carousel" class="relative" data-carousel="static">
           <!-- Carousel wrapper -->
@@ -321,6 +323,136 @@
           </p>
         </div>
       </section>
+      <!-- FAQ section-->
+      <section class="mx-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7 mb-24">
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="headingOne">
+              <button class="
+                accordion-button
+                relative
+                flex
+                items-center
+                w-full
+                py-4
+                px-5
+                text-base text-gray-800 text-left
+                bg-white
+                border-0
+                rounded-none
+                transition
+                focus:outline-none
+              " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                aria-controls="collapseOne">
+                1. What is the difference between Flex and Grid?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body py-4 px-5">
+                CSS Flexbox is a one-dimensional layout model but CSS Grid is a multi-dimensional model.Flexbox container can either facilitate laying out things in a row, or lay them out in a column. On the other hand CSS Grid can facilitate laying out items across and down at once.
+                Flexbox is content-first but Grid is layout-first.
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="headingTwo">
+              <button class="
+                accordion-button
+                collapsed
+                relative
+                flex
+                items-center
+                w-full
+                py-4
+                px-5
+                text-base text-gray-800 text-left
+                bg-white
+                border-0
+                rounded-none
+                transition
+                focus:outline-none
+              " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                aria-controls="collapseTwo">
+                2. How does Media query work?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body py-4 px-5">
+                Media query works to make our website layout responsive. It can add breakpoints where different parts of the design will behave differently on each side of the breakpoint.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="headingThree">
+              <button class="
+                accordion-button
+                collapsed
+                relative
+                flex
+                items-center
+                w-full
+                py-4
+                px-5
+                text-base text-gray-800 text-left
+                bg-white
+                border-0
+                rounded-none
+                transition
+                focus:outline-none
+              " type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                aria-controls="collapseThree">
+                3. What is CSS Box Model?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body py-4 px-5">
+                CSS Box Model is the fundemental core of website design and layout.The CSS box model is a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item bg-white border border-gray-200">
+            <h2 class="accordion-header mb-0" id="headingFour">
+              <button class="
+                accordion-button
+                collapsed
+                relative
+                flex
+                items-center
+                w-full
+                py-4
+                px-5
+                text-base text-gray-800 text-left
+                bg-white
+                border-0
+                rounded-none
+                transition
+                focus:outline-none
+              " type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                aria-controls="collapseFour">
+                4. What is Semantic tag?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body py-4 px-5">
+                Semantic tag means a meaningful HTML tag. It gives meaning to both the browser and the developer. HTML tags that convey the meaning or semantics of the content contained within them. It is a new concept.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+<div>
+  <img src="images/faq.png" alt="">
+</div>
+
+      </section>
+
       <!-- Contact Us heading section-->
       <section>
         <div
@@ -334,33 +466,29 @@
           </p>
         </div>
       </section>
-
-
-
-
       <!-- Contact Us section-->
       <section class="mx-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7 mb-24">
 
        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-<div class="p-12 bg-purple-50 flex flex-col justify-center items-center space-y-4 text-center border">
+<div class="p-12 bg-purple-50 flex flex-col justify-center items-center space-y-4 text-center border border-gray-300">
   <img src="images/location.png" alt="">
   <h1>Address</h1>
   <p>A108 Adam Street,
     New York, NY 535022</p>
 </div>
-<div class="p-12 bg-purple-50 flex flex-col justify-center items-center space-y-4 text-center border">
+<div class="p-12 bg-purple-50 flex flex-col justify-center items-center space-y-4 text-center border border-gray-300">
   <img src="images/call.png" alt="">
   <h1>Call Us</h1>
   <p>A108 Adam Street,
     New York, NY 535022</p>
 </div>
-<div class="p-12 bg-purple-50 flex flex-col justify-center items-center space-y-4 text-center border">
+<div class="p-12 bg-purple-50 flex flex-col justify-center items-center space-y-4 text-center border border-gray-300">
   <img src="images/email.png" alt="">
   <h1>Email Us</h1>
   <p>A108 Adam Street,
     New York, NY 535022</p>
 </div>
-<div class="p-12 bg-purple-50 flex flex-col justify-center items-center space-y-4 text-center border">
+<div class="p-12 bg-purple-50 flex flex-col justify-center items-center space-y-4 text-center border border-gray-300">
   <img src="images/time.png" alt="">
   <h1>Working Hours</h1>
   <p>A108 Adam Street,
@@ -375,19 +503,19 @@
 
        <div>
 <form class="space-y-10">
-  <input type="text"   class=" w-full p-4 pl-6 text-gray-90 rounded bg-purple-50 border-none"
+  <input type="text"   class=" w-full p-4 pl-6 text-gray-90 rounded bg-purple-50 border-none shadow"
   placeholder="Your Name"/>
   <input
   type="email"
-  class=" w-full p-4 pl-6 text-gray-90 rounded bg-purple-50 border-none"
+  class=" w-full p-4 pl-6 text-gray-90 rounded bg-purple-50 border-none shadow"
   placeholder="Your E-mail"/>
-  <input type="text"   class=" w-full p-4 pl-6 text-gray-90 rounded bg-purple-50 border-none"
+  <input type="text"   class=" w-full p-4 pl-6 text-gray-90 rounded bg-purple-50 border-none shadow"
   placeholder="Subject"/>
-  <input type="text"   class=" w-full p-4 pl-6 pb-16 text-gray-90 rounded bg-purple-50 border-none"
+  <input type="text"   class=" w-full p-4 pl-6 pb-16 text-gray-90 rounded bg-purple-50 border-none shadow"
   placeholder="Your Message"/>
   <button
               type="button"
-              class="text-white bg-main font-medium rounded-lg  px-5 py-4 text-center mr-3 md:mr-0 w-full"
+              class="text-white bg-main font-medium rounded-lg  px-5 py-4 text-center mr-3 md:mr-0 w-full shadow"
             >
               Send Message
             </button>
@@ -575,5 +703,7 @@
 
     <!-- flowbite js cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
+    <!-- tailwind elements js  -->
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
   </body>
 </html>
