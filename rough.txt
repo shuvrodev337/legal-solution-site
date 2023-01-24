@@ -17,3 +17,6 @@
   absolute block text-white text-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2
 
   <div class="relative tr md:absolute flex flex-col justify-center  md:block text-white text-center md:-translate-x-1/2 md:-translate-y-1/2 md:top-1/2 md:left-1/2 md:space-y-6 ">
+
+
+   class="absolute hidden md:block text-white text-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 space-y-6"

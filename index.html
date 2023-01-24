@@ -83,10 +83,49 @@
           <div>
             <button
               type="button"
-              class="text-white bg-main font-medium rounded-lg text-sm px-5 py-4 text-center mr-3 md:mr-0"
+              class="text-white bg-main font-medium rounded-lg text-sm px-5 py-4 text-center mr-3 md:mr-0 " data-modal-target="defaultModal" data-modal-toggle="defaultModal"
             >
               Free Consultation
             </button>
+            
+<!-- Modal toggle -->
+
+
+<!-- Main modal -->
+<div id="defaultModal" tabindex="-1" aria-hidden="true" class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full">
+    <div class="relative w-full h-full max-w-2xl md:h-auto">
+        <!-- Modal content -->
+        <div class="relative bg-white rounded-lg shadow dark:bg-gray-700">
+            <!-- Modal header -->
+            <div class="flex items-start justify-between p-4 border-b rounded-t dark:border-gray-600">
+                <h3 class="text-xl font-semibold text-gray-900 dark:text-white">
+                    Terms of Service
+                </h3>
+                <button type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-hide="defaultModal">
+                    <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    <span class="sr-only">Close modal</span>
+                </button>
+            </div>
+            <!-- Modal body -->
+            <div class="p-6 space-y-6">
+                <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  Reservation of Rights
+                  We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it's linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.
+                </p>
+                <p class="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+                  Content Liability
+                  We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
+                </p>
+            </div>
+            <!-- Modal footer -->
+            <div class="flex items-center p-6 space-x-2 border-t border-gray-200 rounded-b dark:border-gray-600">
+                <button data-modal-hide="defaultModal" type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">I accept</button>
+                <button data-modal-hide="defaultModal" type="button" class="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">Decline</button>
+            </div>
+        </div>
+    </div>
+</div>
+
           </div>
         </div>
       </nav>
@@ -97,9 +136,9 @@
             We Provide Effective Legal Solutions
           </h1>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour.
+            There are many variations of passages of our legal representation available, but
+            the majority have gained success of some form, through
+            hard work and excellence.
           </p>
           <form class="space-x-3">
             <input
@@ -119,56 +158,56 @@
       </section>
     </header>
     <main class="container mx-auto">
-      <!-- Legal Practice heading sectoin  -->
+      <!-- Legal Practice sectoin heading   -->
       <section>
         <div
           class="text-center space-y-6 pt-14 pb-8 md:pt-28 md:pb-16 md:px-56"
         >
           <h1 class="text-3xl font-bold">The Legal Practice Area</h1>
           <p class="text-gray-700">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour.
+            There are many variations of passages of our legal representation available, but
+            the majority have gained success of some form, through
+            hard work and excellence.
           </p>
         </div>
       </section>
       <!-- Legal Practice sectoin  -->
 
-<section class="mx-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-24">
+<section class="mx-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mb-16">
 <div class="flex flex-col justify-center items-center space-y-4 text-center p-16 border-b">
   <img src="images/business.png" alt="">
   <h2 class="text-2xl font-semibold">Business Law</h2>
-  <p class="text-gray-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+  <p class="text-gray-700">There are many variations of passages of our legal representation available, but the majority have gained success of some form, through hard work and excellence.</p>
   <img src="images/Frame.png" alt="">
 </div>
 <div class="flex flex-col justify-center items-center space-y-4 text-center p-16 border-b border-x bg-gradient-to-b from-slate-200 to-slate-50">
   <img src="images/criminal.png" alt="">
   <h2 class="text-2xl font-semibold">Criminal Law</h2>
-  <p class="text-gray-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+  <p class="text-gray-700">There are many variations of passages of our legal representation available, but the majority have gained success of some form, through hard work and excellence.</p>
   <img src="images/Frame.png" alt="">
 </div>
 <div class="flex flex-col justify-center items-center space-y-4 text-center p-16 border-b">
   <img src="images/child.png" alt="">
   <h2 class="text-2xl font-semibold">Child Support</h2>
-  <p class="text-gray-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+  <p class="text-gray-700">There are many variations of passages of our legal representation available, but the majority have gained success of some form, through hard work and excellence.</p>
   <img src="images/Frame.png" alt="">
 </div>
 <div class="flex flex-col justify-center items-center space-y-4 text-center p-16">
   <img src="images/education.png" alt="">
   <h2 class="text-2xl font-semibold">Education Law</h2>
-  <p class="text-gray-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+  <p class="text-gray-700">There are many variations of passages of our legal representation available, but the majority have gained success of some form, through hard work and excellence.</p>
   <img src="images/Frame.png" alt="">
 </div>
 <div class="flex flex-col justify-center items-center space-y-4 text-center p-16 border-x">
   <img src="images/divorce.png" alt="">
   <h2 class="text-2xl font-semibold">Divorce Law</h2>
-  <p class="text-gray-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+  <p class="text-gray-700">There are many variations of passages of our legal representation available, but the majority have gained success of some form, through hard work and excellence.</p>
   <img src="images/Frame.png" alt="">
 </div>
 <div class="flex flex-col justify-center items-center space-y-4 text-center p-16">
   <img src="images/tax.png" alt="">
   <h2 class="text-2xl font-semibold">Tax Law</h2>
-  <p class="text-gray-700">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+  <p class="text-gray-700">There are many variations of passages of our legal representation available, but the majority have gained success of some form, through hard work and excellence.</p>
   <img src="images/Frame.png" alt="">
 </div>
 
@@ -177,16 +216,16 @@
 
 
 
-      <!-- client reviw heading section  -->
+      <!-- client reviw section(carousel) heading  -->
       <section>
         <div
           class="text-center space-y-6 pt-14 pb-8 md:pt-28 md:pb-16 md:px-56"
         >
           <h1 class="text-3xl font-bold">What Our Clients Say</h1>
           <p class="text-gray-700">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour.
+            There are many variations of passages of our legal representation available, but
+            the majority have gained success of some form, through
+            hard work and excellence.
           </p>
         </div>
       </section>
@@ -209,6 +248,7 @@
               </div>
               <div
                 class="absolute hidden md:block text-white text-center -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 space-y-6"
+                
               >
                 <img
                   src="images/client-1.jpg"
@@ -218,7 +258,7 @@
                 <h1 class="md:text-2xl">Awlad Hossain</h1>
                 <p>UI/UX Designer</p>
                 <p class="">
-                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  Contrary to popular belief, our legal representation is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC, making it over 2000 years old. Richard McClintock,
                   a Latin professor at Hampden-Sydney College in Virginia,
@@ -248,7 +288,7 @@
                 <h1 class="text-2xl">Mostofa Zaman</h1>
                 <p>Full-stack Web Developer</p>
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  Contrary to popular belief, our legal representation is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC, making it over 2000 years old. Richard McClintock,
                   a Latin professor at Hampden-Sydney College in Virginia,
@@ -277,7 +317,7 @@
                 <h1 class="text-2xl">Mamun Ahmed</h1>
                 <p>Front-end Web Developer</p>
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
+                  Contrary to popular belief, our legal representation is not simply random
                   text. It has roots in a piece of classical Latin literature
                   from 45 BC, making it over 2000 years old. Richard McClintock,
                   a Latin professor at Hampden-Sydney College in Virginia,
@@ -375,9 +415,9 @@
         >
           <h1 class="text-3xl font-bold">Frequently Asked Any Questions</h1>
           <p class="text-gray-500">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour.
+            There are many variations of passages of our legal representation available, but
+            the majority have gained success of some form, through
+            hard work and excellence.
           </p>
         </div>
       </section>
@@ -518,9 +558,9 @@
         >
           <h1 class="text-3xl font-bold">Contact With Us</h1>
           <p class="text-gray-500">
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour.
+            There are many variations of passages of our legal representation available, but
+            the majority have gained success of some form, through
+            hard work and excellence.
           </p>
         </div>
       </section>
@@ -588,29 +628,29 @@
 
 
     <footer class="bg-black">
-      <div class="grid grid-cols-2 gap-8 px-10 py-8 md:grid-cols-4 text-white">
+      <div class="grid grid-cols-2 gap-8 p-16  md:grid-cols-4 text-white">
         <div class="space-y-3">
           <img src="images/logo.png" alt="" />
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour.
+          <p class="text-sm">
+            There are many variations of passages of our legal representation available, but
+            the majority have gained success of some form, through
+            hard work and excellence.
           </p>
         </div>
         <div class="">
           <h2 class="mb-6 text-2xl font-semibold">Usefull Links</h2>
 
-          <ul class="">
-            <li class="mb-4">
+          <ul>
+            <li class="mb-4 text-sm">
               <a href="#" class="hover:underline">Home</a>
             </li>
-            <li class="mb-4">
+            <li class="mb-4 text-sm">
               <a href="#" class="hover:underline">Cases</a>
             </li>
-            <li class="mb-4">
+            <li class="mb-4 text-sm">
               <a href="#" class="hover:underline">Blog</a>
             </li>
-            <li class="mb-4">
+            <li class="mb-4 text-sm">
               <a href="#" class="hover:underline">Contact Us</a>
             </li>
           </ul>
@@ -618,13 +658,13 @@
         <div>
           <h2 class="mb-6 text-2xl font-semibold">Contact Now</h2>
           <ul class="">
-            <li class="mb-4">
+            <li class="mb-4 text-sm">
               <p>555 4th 5t NW, Washington DC 20530, United States</p>
             </li>
-            <li class="mb-4">
+            <li class="mb-4 text-sm">
               <p>+88 01750 000 000 +88 01750 000 000</p>
             </li>
-            <li class="mb-4">
+            <li class="mb-4 text-sm">
               <p>info@gmail.com info@gmail.com</p>
             </li>
           </ul>
@@ -632,7 +672,7 @@
         <div class="space-y-6">
           <h2 class="mb-6 text-2xl font-semibold">Subscribe</h2>
           <div>
-            <p>
+            <p class="text-sm">
               Subscribe for our latest & Articles. We Won't Give You Spam Mails
             </p>
           </div>
@@ -755,7 +795,7 @@
 
     <!-- flowbite js cdn -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
-    <!-- tailwind elements js  -->
+    <!-- tailwind elements js cdn  -->
     <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
   </body>
 </html>
